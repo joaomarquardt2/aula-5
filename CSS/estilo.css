@@ -1,0 +1,100 @@
+/* define o estilo do corpo do nosso HTML*/
+body{
+    font-family: Arial, Helvetica, sans-serif; /*fonte do texto no body*/
+    margin: 0; /*remove a margem do Body*/
+    padding: 0; /*remove o preenchimento do body*/
+}
+
+header{
+    text-align: center; /*alinha o conteúdo ao centro*/
+    padding: 20px; /*adiciona 20px de preenchimento*/
+    background-color: #141414; /*cor de fundo do header*/
+    color: #ccc; /*definimos a cor do texto*/
+}
+
+header h1{
+    font-size: 39px; /*Define o tamanho a fonte*/
+    color: orange;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #141414;
+}
+
+.social-media{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+p{
+    color: rgb(204, 202, 202);
+}
+
+p:hover{
+    color: #f8e5e5;
+}
+
+main{
+    background-color: #141414;          
+}
+
+div.product{
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background:#141414;
+    
+
+}
+
+#Produtos{
+    display: flex;
+    flex-wrap: wrap; /*Permite que os items quebrem*/
+    justify-content: center;
+    gap: 20px; /*Define o espaçamento entre os itens*/
+    padding: 20px;
+    background: 10px;
+}
+img.produto{
+    max-width: 300px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 10px;
+}
+button{
+    color: rgb(10, 9, 9);
+    background: orange;
+    border-radius: 6px;
+    width: 100px;
+}
+button:hover{
+    color:azure;
+}
+#Beneficios{
+    text-align: center;
+    background-color: orange;
+}
+h2.titulo2{
+    color: #141414;
+}
+.textoD{
+    margin-bottom: 5px;
+
+}
+#Depoimentos{
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0;
+}
